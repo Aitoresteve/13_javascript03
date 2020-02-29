@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <style type="text/css">
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            img{
+                width: 100%;
+            }
+            ul li{
+                display: flex;
+                flex-direction: column;
+                list-style-type: none;
+                width: 400px;
+                overflow: hidden;
+            }
+            ul li a{
+                text-align: center;
+                border: 1px solid coral;
+                text-decoration: none;
+                font-size: 2em;
+                color: coral;
+                height: 60px;
+                width: 100%;
+                padding: 10px;
+            }
+            ul li img{
+                object-fit: cover;
+                height: 400px;
+                object-position: center;
+            }
+        </style>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous">
+    </script>
+        <script src="js/interaction.js"></script>
+        <script type="application/javascript">
+          //  $(document).ready(function(){
+               // $("img").hide();
+              //  $("li:first-child a").click(function(){
+                  //  $("li:first-child img").fadeIn();
+              //  });
+               // $("li:nth-child(2) a").click(function(){
+                  //  $("li:nth-child(2) img").slideDown();
+               // });
+               // $("li:nth-child(3) a").click(function(){
+                //    $("li:nth-child(3) img").fadeIn();
+              //  });             
+           // });
+        </script>
+    </head>
+    <body>
+        <ul>
+            <li><a href="#">Primer</a>
+            <img src="img/Avocado.gif" alt="">
+            </li>
+            <li><a href="#">Segon</a>
+            <img src="img/html.gif" alt="">
+            </li>
+            <li><a href="#">Tercer</a>
+            <img src="img/retro.gif" alt="">
+            </li>
+        </ul>
+    </body>
+</html>
